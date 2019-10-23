@@ -14,5 +14,9 @@ createServer((request, response) => {
             return sendFile(response, 200, "text/css", "./CSS 3 test.css");
         case "/dsIII.jpg":
             return sendFile(response, 200, "img/jpg", "./dsIII.jpg");
+        case "/doge2.png":
+            return sendFile(response, 200, "img/png", "./doge2.png");
+        case "/windowsxp.jpg":
+            return sendFile(response, 200, "img/jpg", "./windowsxp.jpg");
     }
 }).listen(8080);
