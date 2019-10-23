@@ -1,0 +1,31 @@
+img{
+    width: 616px;
+    height: 353px;
+    transition: width 2s, height 2s, transfrom 2s;
+    
+    
+}
+img:hover{
+    width: 1016px;
+    height: 653px;
+}
+h1{
+    box-shadow: 10px 10px 5px grey;
+    background-color: aqua
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    column-count: 6;
+    column-rule: 3px solid red;
+    background-color: aqua;
+    column-gap: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+body{
+    background-image: url(doge2.png), url(windowsxp.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%, cover;
+    background-position: 50%, 60%;
+}
