@@ -18,5 +18,7 @@ createServer((request, response) => {
             return sendFile(response, 200, "img/png", "./doge2.png");
         case "/windowsxp.jpg":
             return sendFile(response, 200, "img/jpg", "./windowsxp.jpg");
+        default:
+            sendFile(response, 200, "ERROR404.html");
     }
 }).listen(8080);
